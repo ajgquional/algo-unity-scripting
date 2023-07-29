@@ -24,3 +24,10 @@
 * <b>Enemy.cs</b> - contains enemy properties (such as speed, target, and amount of damage it inflicts) and methods to control the enemy's movement and to inflict damage to the player
 * <b>Coin.cs</b> - contains the code describing what would happen to the coin when the player touches it
 * <b>Missile.cs</b> - contains the code describing the projectile's movement and what would happen if an enemy collides with it
+
+#### M3L5: Conditional constructs
+
+* <b>Player.cs</b> - same script as before but now updated to include codes to play a sound effect when the player receives some damage and to restart the level when there's no more health left
+* <b>Platform.cs</b> - script to move a platform up or down (as if it's an elevator) when the player rides it; also, the script includes conditions to reverse the platform's direction when the platform touches specified stopping points in the scene
+* <b>Timer.cs</b> - adds a countdown timer to the game; when the time reaches zero, the level restarts
+* <b>Enemy.cs</b> - same script as before but now updated to catch NullReferenceException error; specifically, a condition is added in the script to check if it's really the player who touches the enemy
