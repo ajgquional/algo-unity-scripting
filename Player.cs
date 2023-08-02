@@ -7,10 +7,20 @@ public class Player : MonoBehaviour
 {
     // health of the player
     // private access modifier since the health value is not intended to be accessible to other scripts
-    private int health = 10;
+    //private int health = 10;
+
+    // access modifier of health now changed to public
+    // current player health
+    public int health = 10;
+
+    // maximum player health
+    public int maxHealth = 10;
 
     // note: this is additional, to implement collection of coins
-    private int coins;  // number of coins collected
+    //private int coins;  // number of coins collected
+
+    // access modifier of coins now changed to public
+    public int coins;
 
     // note: this is additional, to implement firing of fireballs
     public GameObject fireballPrefab;   // storing the prefab of the fireball
