@@ -31,3 +31,9 @@
 * <b>Platform.cs</b> - script to move a platform up or down (as if it's an elevator) when the player rides it; also, the script includes conditions to reverse the platform's direction when the platform touches specified stopping points in the scene
 * <b>Timer.cs</b> - adds a countdown timer to the game; when the time reaches zero, the level restarts
 * <b>Enemy.cs</b> - same script as before but now updated to catch NullReferenceException error; specifically, a condition is added in the script to check if it's really the player who touches the enemy
+
+#### M3L6: Player Interface
+
+* <b>Player.cs</b> - same script as before but now updated with a changed access modifier for health and coins fields from private to public, since another script (PlayerUI.cs) needs to access those fields
+* <b>PlayerUI.cs</b> - updates the UI elements (health slider, timer countdown, and coins counter) frame-by-frame; thus, the script links to the various UI elements added to the game screen
+* <b>Timer.cs</b> - same script as before but now updated to have a link to the timer UI object as well as a conversion of seconds to integer and finally to a string before printing the time on the player's screen
