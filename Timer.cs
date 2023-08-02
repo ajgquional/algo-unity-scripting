@@ -1,12 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using UnityEngine.SceneManagement;  // library to be able to work with the game scene
+using UnityEngine.UI;               // library needed to work with the interface
+using TMPro;                        // library needed to work with text
 
 public class Timer : MonoBehaviour
 {
-    public int minutes = 1; // initially assigning a time limit of 1 minute to finish the level
+    public int minutes = 2; // initially assigning a time limit of 2 minutes to finish the level
     public float seconds;
+
+    // link to the TextMeshProGUI component of the timer
+    public TextMeshProUGUI timerText;
 
     // The update cycle is approximately 0.01 seconds
     void Update()
@@ -39,5 +44,9 @@ public class Timer : MonoBehaviour
 
         // checking for timer countdown by printing the time in the console
         print(minutes + ":" + seconds);
+
+        // rounding the value of seconds to integers to display them on the screen
+        int roundSeconds = Mathf.RoundToInt(seconds);
+        timerText.text = minutes + ":" + roundSeconds;
     }
 }
