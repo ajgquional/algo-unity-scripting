@@ -7,6 +7,7 @@
  *      to catch the NullReferenceException error
  * 
  * How to use the script:
+ *      - Setup a "Player" tag and assign it to the Player
  *      - Replace the previous Enemy script with this one
  * **************************************************/
 
@@ -35,7 +36,7 @@ public class Enemy : MonoBehaviour
     // when the enemy collides with the Player, the Player receives damage 
     private void OnTriggerEnter(Collider other)
     {
-        // condition to ensure that it is really the player who touched the enemy
+        // condition to ensure that it is really the player who touched the enemy (by making use of tags)
         // primarily to "catch" NullReferenceException error
         if (other.tag == "Player")
         {
