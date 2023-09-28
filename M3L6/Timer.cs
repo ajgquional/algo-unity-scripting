@@ -12,6 +12,7 @@
  * 
  * How to use the script:
  *      - Replace the previous Timer script with this one
+  *     - Link the Timer Text object
  * **************************************************/
 
 // libraries
