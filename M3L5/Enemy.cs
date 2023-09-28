@@ -43,7 +43,7 @@ public class Enemy : MonoBehaviour
             Player player = other.GetComponent<Player>();
 
             // player takes damage by calling the TakeDamage method of the player
-            health.TakeDamage(playerDamage);
+            player.TakeDamage(playerDamage);
         }
     }
 }
