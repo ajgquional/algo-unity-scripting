@@ -1,39 +1,24 @@
-# Notes about the scripts
+# Sample Unity 3D Platformer
 
-#### M3L1: Introduction to the C# language
+## About the game
 
-* <b>HelloWorld.cs</b> - prints the text "Hello, World!" in the Unity Editor console once at the beginning of the game
-* <b>Crickets.cs</b> - prints the text "crickets" in the Unity Editor console every frame
-* <b>Destroy.cs</b> - destroys the primitive that the script is attached to at the beginning of the game
-* <b>CreatePrimitive.cs</b> - creates a figure resembling Steve from Minecraft at the beginning of the game
+This is a sample 3D platformer game mainly used to teach C# scripting in Unity. Starting from Lesson 3 of Module 1 and up to Lesson 4 of Module 4 of the Unity Game Development course, students would progressively and gradually work on the development of the game. Specifically, students would implement various game mechanics leading to the completion of the 3D game. 
 
-#### M3L2: Variables and data types
+The game follows a main character (a wizard). Initially, the Player is in first-person but as animation is discussed (in Module 4), the player character is changed so that the game is played in third-person. The wizard player can navigate around the world using the usual navigational keys (WASD and Space Bar to jump). There are various objects that can be interacted with, such as an accelerator to make the wizard run fast, a trampoline and a lift to allow the wizard move to a higher point in the level, spikes as traps, and coins to collect. Additionally, there is an added combat to the game in that a turtle enemy can be destroyed by firing a fireball from the wizard's staff.
 
-* <b>NPC.cs</b> - prints the NPC's health in the console once at the beginning of the game and moves the NPC across the plane along the z-axis
+There are also levels in the game. Level 1 shows the wizard player navigating in a mountain environment. At the end of Level 1, there is a gate that the player can "go through" to progress to Level 2 which is an "icy world." Once the player arrived at Level 2, the game switches to first-person and the objective of the player is to collect coins while surviving in the cold. In this regard, a temperature gauge is placed on the User Interface to inform the player that when the temperature of the player goes below a critical temperature, damage would be inflicted. To mitigate the effects of winter, bonfires are placed in the level where the player can "warm up" to stop the damage to the player.
 
-#### M3L3: Object classes
+This is only a sample game, and further expansions and developments can be applied.
 
-* <b>SpeedTrigger.cs</b> - accelerates the player once an accelerator object is touched
-* <b>Trampoline.cs</b> - increases the jumpStrength property of the player once a trampoline object is touched
-* <b>SceneChange.cs</b> - teleports the player back to the spawn point (by reloading the scene) once a trap object is touched
-* <b>Teleport.cs</b> - teleports the player to a set teleportPoint once a teleporter object is touched
+## About the repository
 
-#### M3L4: Functions and methods
+This repository mainly contains C# scripts used in each lesson; thus, the actual assets and scenes are not included. However, there are relevant links placed here to access the Unity project at various completion stages. To aid in navigating this repository, scripts are placed in the corresponding lesson folder, in which the name is shorthanded as "MXLY" where X is the module number and Y is the lesson number (for example, Module 1 Lesson 1, following the folder notation, is M1L1). The folder notations in this repository are specified below, along with the lesson title: 
+* M3L1: Introduction to the C# language
+* M3L2: Variables and data types
+* M3L3: Object classes
+* M3L4: Functions and methods
+* M3L5: Conditional constructs
+* M3L6: Player Interface
+* M3L7: Modular development
 
-* <b>Player.cs</b> - contains player properties (such as health and number of coins) and methods for taking damage, collection of coins, and preliminary controls (firing of fireballs using left mouse button)
-* <b>Enemy.cs</b> - contains enemy properties (such as speed, target, and amount of damage it inflicts) and methods to control the enemy's movement and to inflict damage to the player
-* <b>Coin.cs</b> - contains the code describing what would happen to the coin when the player touches it
-* <b>Missile.cs</b> - contains the code describing the projectile's movement and what would happen if an enemy collides with it
-
-#### M3L5: Conditional constructs
-
-* <b>Player.cs</b> - same script as before but now updated to include codes to play a sound effect when the player receives some damage and to restart the level when there's no more health left
-* <b>Platform.cs</b> - script to move a platform up or down (as if it's an elevator) when the player rides it; also, the script includes conditions to reverse the platform's direction when the platform touches specified stopping points in the scene
-* <b>Timer.cs</b> - adds a countdown timer to the game; when the time reaches zero, the level restarts
-* <b>Enemy.cs</b> - same script as before but now updated to catch NullReferenceException error; specifically, a condition is added in the script to check if it's really the player who touches the enemy
-
-#### M3L6: Player Interface
-
-* <b>Player.cs</b> - same script as before but now updated with a changed access modifier for health and coins fields from private to public, since another script (PlayerUI.cs) needs to access those fields
-* <b>PlayerUI.cs</b> - updates the UI elements (health slider, timer countdown, and coins counter) frame-by-frame; thus, the script links to the various UI elements added to the game screen
-* <b>Timer.cs</b> - same script as before but now updated to have a link to the timer UI object as well as a conversion of seconds to integer and finally to a string before printing the time on the player's screen
+Aside from the scripts, each folder also contains individual README files which contains a short description about the script, as well as relevant links and files to aid in the completion of a certain activity. Mainly, the README files contain guides on how to use the scripts and complete an activity.
