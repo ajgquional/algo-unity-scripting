@@ -4,7 +4,7 @@
  * 
  * Program description: 
  *      This program implements a transition to Level 1
- *      when the start button in the Main Menu is clicked
+ *      when the start button in the Main Menu is clicked.
  * 
  * How to use the script:
  *      - Attach the script to Start Button object
