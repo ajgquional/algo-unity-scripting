@@ -13,7 +13,7 @@ This part of the repository contains the scripts for Module 3, Lesson 4: Functio
 
 ## General instructions on using the scripts
 
-The scripts in the lesson serve different purposes, as outlined above. To be able to use them, make sure to find or add the appropriate game objects in the 3D Platformer game template. Make sure as well that there are Collider components for the Player to be able to interact with them. The Coin and Player objects are already in the template, but the Enemy and wizard staff (and the fireball prefab) aren't. Make sure to setup these objects first. Once the objects are setup, the scripts can now be attached to the appropriate game objects. Once the script is attached, check the script components if object instances need to be assigned to a corresponding field (such as in the Enemy and Missile scripts).  
+The scripts in the lesson serve different purposes, as outlined above. To be able to use them, make sure to find or add the appropriate game objects in the 3D Platformer game template. Make sure as well that there are Collider components for the Player to be able to interact with them. The Coin and Player objects are already in the template, but the Enemy and wizard staff (and the fireball prefab) aren't. Make sure to setup these objects first. Once the objects are setup, the scripts can now be attached to the appropriate game objects. Once the script is attached, check the script components if object instances need to be assigned to a corresponding field (such as in the Player and Enemy).  
 
 For specific details on using the scripts, a step-by-step guide is provided below.
 
