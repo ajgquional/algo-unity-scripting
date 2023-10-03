@@ -8,7 +8,7 @@ This part of the repository contains the script for Module 3, Lesson 2: Variable
 
 * <b>NPC.cs</b> - prints the NPC's health in the console once at the beginning of the game and moves the NPC across the plane along the z-axis
 
-## General instructions on using the scripts
+## General instructions on using the script
 
 The script in the lesson is used to make a sample cube NPC move continuously forward while the game is running. Before creating or copying the script, make sure to create the NPC first, as well as the plane where the NPC would "move" (the NPC can move though even if there isn't a plane, but it's best to have a plane so that there's a "ground" where the NPC can move across). After creating the necessary game objects, attach the script to the NPC.
 
