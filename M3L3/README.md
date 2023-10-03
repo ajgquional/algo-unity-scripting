@@ -1,6 +1,6 @@
 # Module 3, Lesson 3: Object classes
 
-This part of the repository contains the scripts for Module 3, Lesson 3: Object classes. The lesson is about object classes, and being so, that activities in the lesson deal with creating several object classes for the 3D Platformer game. There's an Accelerator class which would make the Player run fast when the accelerator object is touched; a Trampoline class that would make the Player jump high when the trampoline object is touched; a Scene Change class that would restart the level when a trap object is touched; and a Teleport class that would allow the Player to teleport to another location set within the game.
+This part of the repository contains the scripts for Module 3, Lesson 3: Object classes. The lesson is about object classes, and being so, the activities in the lesson deal with creating several object classes for the 3D Platformer game. There's an Accelerator class which would make the Player run fast when the accelerator object is touched; a Trampoline class that would make the Player jump high when the trampoline object is touched; a Scene Change class that would restart the level when a trap object is touched; and a Teleport class that would allow the Player to teleport to another location set within the game.
 
 # Guides:
 
