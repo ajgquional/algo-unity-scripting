@@ -17,62 +17,73 @@ In short, the player plays as a wizard, navigate through the mountain level (Lev
 This repository mainly contains C# scripts used in each lesson; thus, the actual assets and scenes are not included. However, there are relevant links placed here to access the Unity project at various completion stages. To aid in navigating this repository, scripts are placed in the corresponding lesson folder, in which the name is shorthanded as "MXLY" where X is the module number and Y is the lesson number (for example, Module 1 Lesson 1, following the folder notation, is M1L1). The folder notations in this repository are specified below, along with the lesson title as well as a listing of the scripts contained in the folder (for easy navigation): 
 
 * M3L1: Introduction to the C# language
-  * CreatePrimitive.cs
-  * Crickets.cs
-  * Destroy.cs
-  * HelloWorld.cs
+  * <a href="https://github.com/ajgquional/algo-unity-scripting/blob/main/M3L1/CreatePrimitive.cs">CreatePrimitive.cs</a>
+  * <a href="https://github.com/ajgquional/algo-unity-scripting/blob/main/M3L1/Crickets.cs">Crickets.cs</a>
+  * <a href="https://github.com/ajgquional/algo-unity-scripting/blob/main/M3L1/Destroy.cs">Destroy.cs</a>
+  * <a href="https://github.com/ajgquional/algo-unity-scripting/blob/main/M3L1/HelloWorld.cs">HelloWorld.cs</a>
     
 * M3L2: Variables and data types
-  * NPC.cs
+  * <a href="https://github.com/ajgquional/algo-unity-scripting/blob/main/M3L2/NPC.cs">NPC.cs</a>
     
 * M3L3: Object classes
-  * SceneChange.cs
-  * SpeedTrigger.cs
-  * Teleport.cs
-  * Trampoline.cs
+  * <a href="https://github.com/ajgquional/algo-unity-scripting/blob/main/M3L3/SceneChange.cs">SceneChange.cs</a>
+  * <a href="https://github.com/ajgquional/algo-unity-scripting/blob/main/M3L3/SpeedTrigger.cs">SpeedTrigger.cs</a>
+  * <a href="https://github.com/ajgquional/algo-unity-scripting/blob/main/M3L3/Teleport.cs">Teleport.cs</a>
+  * <a href="https://github.com/ajgquional/algo-unity-scripting/blob/main/M3L3/Trampoline.cs">Trampoline.cs</a>
     
 * M3L4: Functions and methods
-  * Coin.cs (version 1)
-  * Enemy.cs (version 1)
-  * Missile.cs
-  * Player.cs
+  * <a href="https://github.com/ajgquional/algo-unity-scripting/blob/main/M3L4/Coin.cs">Coin.cs (version 1)</a>
+  * <a href="https://github.com/ajgquional/algo-unity-scripting/blob/main/M3L4/Enemy.cs">Enemy.cs (version 1)</a>
+  * <a href="https://github.com/ajgquional/algo-unity-scripting/blob/main/M3L4/Missile.cs">Missile.cs</a>
+  * <a href="https://github.com/ajgquional/algo-unity-scripting/blob/main/M3L4/Player.cs">Player.cs (version 1)</a>
     
 * M3L5: Conditional constructs
-  * Enemy.cs (version 2)
-  * Platform.cs
-  * Player.cs (version 2)
-  * Timer.cs (version 1)
+  * <a href="https://github.com/ajgquional/algo-unity-scripting/blob/main/M3L5/Enemy.cs">Enemy.cs (version 2)</a>
+  * <a href="https://github.com/ajgquional/algo-unity-scripting/blob/main/M3L5/Platform.cs">Platform.cs</a>
+  * <a href="https://github.com/ajgquional/algo-unity-scripting/blob/main/M3L5/Player.cs">Player.cs (version 2)</a>
+  * <a href="https://github.com/ajgquional/algo-unity-scripting/blob/main/M3L5/Timer.cs">Timer.cs (version 1)</a>
     
 * M3L6: Player Interface
-  * Player.cs (version 3)
-  * PlayerUI.cs (version 1)
-  * Timer.cs (version 2)
+  * <a href="https://github.com/ajgquional/algo-unity-scripting/blob/main/M3L6/Player.cs">Player.cs (version 3)</a>
+  * <a href="https://github.com/ajgquional/algo-unity-scripting/blob/main/M3L6/PlayerUI.cs">PlayerUI.cs (version 1)</a>
+  * <a href="https://github.com/ajgquional/algo-unity-scripting/blob/main/M3L6/Timer.cs">Timer.cs (version 2)</a>
     
 * M3L7: Modular development
   * Level_1 Scripts
-    * Coin.cs (version 2)
-    * CoinsCounter.cs
-    * Enemy.cs (version 3)
-    * FireballAttack.cs
-    * Health.cs
-    * PlayerUI.cs (version 2)
+    * <a href="https://github.com/ajgquional/algo-unity-scripting/blob/main/M3L7/Level_1/Coin.cs">Coin.cs (version 2)</a>
+    * <a href="https://github.com/ajgquional/algo-unity-scripting/blob/main/M3L7/Level_1/CoinsCounter.cs">CoinsCounter.cs</a>
+    * <a href="https://github.com/ajgquional/algo-unity-scripting/blob/main/M3L7/Level_1/Enemy.cs">Enemy.cs (version 3)</a>
+    * <a href="https://github.com/ajgquional/algo-unity-scripting/blob/main/M3L7/Level_1/FireballAttack.cs">FireballAttack.cs</a>
+    * <a href="https://github.com/ajgquional/algo-unity-scripting/blob/main/M3L7/Level_1/Health.cs">Health.cs</a>
+    * <a href="https://github.com/ajgquional/algo-unity-scripting/blob/main/M3L7/Level_1/PlayerUI.cs">PlayerUI.cs (version 2)</a>
       
   * Level_2 Scripts
-    * Bonfire.cs
-    * Temperature.cs
-    * TemperatureUI.cs
+    * <a href="https://github.com/ajgquional/algo-unity-scripting/blob/main/M3L7/Level_2/Bonfire.cs">Bonfire.cs</a>
+    * <a href="https://github.com/ajgquional/algo-unity-scripting/blob/main/M3L7/Level_2/Temperature.cs">Temperature.cs</a>
+    * <a href="https://github.com/ajgquional/algo-unity-scripting/blob/main/M3L7/Level_2/TemperatureUI.cs">TemperatureUI.cs</a>
       
   * Menu Scripts
-    * ExitButton.cs
-    * StartButton.cs
+    * <a href="https://github.com/ajgquional/algo-unity-scripting/blob/main/M3L7/Menu/ExitButton.cs">ExitButton.cs</a>
+    * <a href="https://github.com/ajgquional/algo-unity-scripting/blob/main/M3L7/Menu/StartButton.cs">StartButton.cs</a>
       
 * M4L1: Introduction to animation
-  * Button.cs
+  * <a href="https://github.com/ajgquional/algo-unity-scripting/blob/main/M4L1/Button.cs">Button.cs</a>
 
 Aside from the scripts, each folder also contains individual README files which contains a short description about the script, as well as relevant links and files to aid in the completion of a certain activity. Mainly, the README files contain guides on how to use the scripts and complete an activity.
 
-Note that this repository would be continuously updated to include relevant informational materials, so be sure to check this repository from time-to-time.
+Lastly, this repository contains links for general resources relevant to Unity game development.
+
+Note that this repository would be continuously updated to include relevant informational materials (such as links for general resources as well as tutorials, when they're available), so be sure to check this repository from time-to-time.
+
+### Special note about the scripts:
+* Some scripts have different versions according to the lesson being discussed. This versions are due to improvements to the previous versions, incorporating the topic at hand. In particular, to reduce confusion, take note that the following scripts have multiple versions:
+  * Coin.cs
+  * Enemy.cs
+  * Player.cs
+  * Timer.cs
+  * PlayerUI.cs
+ * The program contained in the scripts is highly annotated. Although this may not be the best practice, it serves as a detailed explanation and guide for the student. Refer to the comments in the program to see what a particular line of code is meant to do.
 
 ## Relevant general resources
 * Unity User Manual 2021.3 (LTS): https://docs.unity3d.com/2021.3/Documentation/Manual/UnityManual.html
-* Best Practices for Organizing your Unity Project: https://unity.com/how-to/organizing-your-project
+* Best practices for organizing Unity projects: https://unity.com/how-to/organizing-your-project
