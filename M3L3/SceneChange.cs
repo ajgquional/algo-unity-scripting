@@ -16,7 +16,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor.SceneManagement; // library containing containing classes for working with the scene
+using UnityEditor.SceneManagement; // library containing classes for working with the scene
 
 public class SceneChange : MonoBehaviour
 {
