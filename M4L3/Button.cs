@@ -24,6 +24,8 @@
  *      - Put the Turtle enemy behind the Blue Gates (recommended) 
  *          so that the enemy would attack after opening the gates
  *          open
+ 8      - Make sure that the Enemy object is specified in the Enemy
+ *          field in the Inspector window
  * **************************************************/
 
 // libraries
