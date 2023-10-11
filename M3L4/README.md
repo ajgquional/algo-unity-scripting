@@ -22,3 +22,7 @@ For specific details on using the scripts, a step-by-step guide is provided belo
 * Direct activities guide in Google Slides: https://docs.google.com/presentation/d/1UhWyxyq9SOLV_elCmKw3eITyRBJSx7Eja1O9D-E2F5Q/edit?usp=sharing
 * Complete handbook/lesson slides (c/o Algorithmics): https://docs.google.com/presentation/d/1xhmeGoa7KnyGdCaa-AT2zADagDa9Jzt8zURlojlJarM/edit?usp=sharing
 * Completed activity (c/o Algorithmics): https://drive.google.com/file/d/1Zhz-Nso02gfTQ1zjLlagx2OzvVeksN1t/view
+
+## Relevant official Unity tutorials
+
+* <a href="https://www.youtube.com/watch?v=Q3u0x8VRJS4&list=PLX2vGYjWbI0S9-X2Q021GUtolTqbUBB9B">C# Instantiate in Unity</a>
