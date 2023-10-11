@@ -19,3 +19,9 @@ For specific details on using the script, a step-by-step guide is provided below
 * Direct activity guide in Google Slides: https://docs.google.com/presentation/d/1QL926fO6hRz3bmoGCT5pqPsOLNwKKTS0X7LwWe1gQeM/edit?usp=sharing
 * Complete handbook/lesson slides (c/o Algorithmics): https://docs.google.com/presentation/d/1ntFZSJ_odqN_sKJBYUAvqlDZRU57Eu7z-SXV3xkS-Po/edit?usp=sharing
 * Completed activity (c/o Algorithmics): https://drive.google.com/file/d/1MYmT6O9Ad5jTFvWV0KpHyt-BbCXIXnHm/view
+
+## Relevant official Unity tutorials
+
+* <a href="https://www.youtube.com/watch?v=-c1RsydH2nA&list=PLX2vGYjWbI0S9-X2Q021GUtolTqbUBB9B">C# Variables And Functions in Unity</a>
+* <a href="https://www.youtube.com/watch?v=IVcx-tSxjys&list=PLX2vGYjWbI0S9-X2Q021GUtolTqbUBB9B">C# DataTypes in Unity</a>
+* <a href="https://www.youtube.com/watch?v=_0oBLCJcpCs&list=PLX2vGYjWbI0S9-X2Q021GUtolTqbUBB9B">C# Scope and Access Modifiers in Unity</a>
