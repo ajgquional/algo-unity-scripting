@@ -23,3 +23,8 @@ For specific details on using the scripts, a step-by-step guide is provided belo
 * Complete handbook/lesson slides (c/o Algorithmics): https://docs.google.com/presentation/d/1yOMcz1sBa9Iq35DZg0gcQ99LkAduu5iaHCHaOXXDUvA/edit?usp=sharing
 * Completed activity (c/o Algorithmics): https://drive.google.com/file/d/1FgJb_q2gWyQn1E6df0VQaxc2fv0zRq1G/view
 
+## Relevant official Unity tutorials
+
+* <a href="https://www.youtube.com/watch?v=Z0Z7xc18CcA&list=PLX2vGYjWbI0S9-X2Q021GUtolTqbUBB9B">C# Scripts as Behaviour Components in Unity</a>
+* <a href="https://www.youtube.com/watch?v=0mks0QaWCNQ&list=PLX2vGYjWbI0S9-X2Q021GUtolTqbUBB9B">C# Conventions and Syntax in Unity</a>
+* <a href="https://www.youtube.com/watch?v=pRDj3jss5t8&list=PLX2vGYjWbI0S9-X2Q021GUtolTqbUBB9B">C# Destroy in Unity</a>
