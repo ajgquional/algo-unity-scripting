@@ -22,3 +22,8 @@ For specific details on using the scripts, a step-by-step guide is provided belo
 * Direct activities guide in Google Slides: https://docs.google.com/presentation/d/1xM1St_KlHnJdKA19ekDESsB878IQI2bj4XKiTkjlnK4/edit?usp=sharing
 * Complete handbook/lesson slides (c/o Algorithmics): https://docs.google.com/presentation/d/1mDabH6d133JRzczAEp-M4P3lk8ysk1lqzOr-olWq_ao/edit?usp=sharing
 * Completed activity (c/o Algorithmics): https://drive.google.com/file/d/1i7YxO7gz0tmFPnd38ASeew2u9J8s5QAI/view
+
+## Relevant official Unity tutorials
+
+* <a href="https://www.youtube.com/watch?v=odKtPBsyFnw&list=PLX2vGYjWbI0S9-X2Q021GUtolTqbUBB9B">C# Classes in Unity</a>
+* <a href="https://www.youtube.com/watch?v=xbDKC4zP9XY&list=PLX2vGYjWbI0S9-X2Q021GUtolTqbUBB9B">C# GetComponent in Unity</a>
