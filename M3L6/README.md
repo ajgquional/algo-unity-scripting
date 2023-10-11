@@ -21,3 +21,11 @@ For specific details on using the scripts, a step-by-step guide is provided belo
 * Direct activities guide in Google Slides: 
 * Complete handbook/lesson slides (c/o Algorithmics): https://docs.google.com/presentation/d/1MEbe7AoWs_F3Nc71DuWMukX2sBsFsdNdbMh8b30FpJc/edit?usp=sharing
 * Completed activity (c/o Algorithmics): https://drive.google.com/file/d/1buhAgg7fgUlEGrhinQv_3hLL00CP7UX9/view
+
+## Relevant official Unity tutorials
+
+* <a href="https://www.youtube.com/watch?v=OD-p1eMsyrU&list=PLX2vGYjWbI0Qp0sD8_RKgbWul7z_eyNAv">UI Canvas</a>
+* <a href="https://www.youtube.com/watch?v=FeheZqu85WI&list=PLX2vGYjWbI0Qp0sD8_RKgbWul7z_eyNAv">Rect Transform</a>
+* <a href="https://www.youtube.com/watch?v=J5ZNuM6K27E&list=PLX2vGYjWbI0Qp0sD8_RKgbWul7z_eyNAv">UI Button</a>
+* <a href="https://www.youtube.com/watch?v=WFQcc1GUe7U&list=PLX2vGYjWbI0Qp0sD8_RKgbWul7z_eyNAv">UI Image</a>
+* <a href="https://www.youtube.com/watch?v=wlY5sRewfVQ&list=PLX2vGYjWbI0Qp0sD8_RKgbWul7z_eyNAv">UI Text</a>
