@@ -22,3 +22,7 @@ For specific details on using the scripts, a step-by-step guide is provided belo
 * Direct activities guide in Google Slides: https://docs.google.com/presentation/d/1_pkL_4Y8ILZfPzHA3JsFQBsDzjfb50JtzEPUoUc316g/edit?usp=sharing
 * Complete handbook/lesson slides (c/o Algorithmics): https://docs.google.com/presentation/d/1xUMXYVWzK9v9bW4sriWJHLREfwKzgPi07ZlZA18h0HU/edit?usp=sharing
 * Completed activity (c/o Algorithmics): https://drive.google.com/file/d/1c9hyWjGROwcfh1wmcTXVzNYQ7Z7PqExF/view
+
+## Relevant official Unity tutorials
+
+* <a href="https://www.youtube.com/watch?v=PQihrWCOSic&list=PLX2vGYjWbI0S9-X2Q021GUtolTqbUBB9B">C# If Statements in Unity</a>
