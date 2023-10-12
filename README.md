@@ -67,9 +67,20 @@ This repository mainly contains C# scripts used in each lesson; thus, the actual
     * <a href="https://github.com/ajgquional/algo-unity-scripting/blob/main/M3L7/Menu/StartButton.cs">StartButton.cs</a>
       
 * M4L1: Introduction to animation
-  * <a href="https://github.com/ajgquional/algo-unity-scripting/blob/main/M4L1/Button.cs">Button.cs</a>
+  * <a href="https://github.com/ajgquional/algo-unity-scripting/blob/main/M4L1/Button.cs">Button.cs (version 1)</a>
 
-Aside from the scripts, each folder also contains individual README files which contains a short description about the script, as well as relevant links and files to aid in the completion of a certain activity. Mainly, the README files contain guides on how to use the scripts and complete an activity.
+* M4L2: Character animation. Part 1
+  * <a href="https://github.com/ajgquional/algo-unity-scripting/blob/main/M4L2/CharacterAnim.cs">CharacterAnim.cs (version 1)</a>
+
+* M4L3: Character animation. Part 2
+  * <a href="https://github.com/ajgquional/algo-unity-scripting/blob/main/M4L3/Button.cs">Button.cs (version 2)</a>
+  * <a href="https://github.com/ajgquional/algo-unity-scripting/blob/main/M4L3/CharacterAnim.cs">CharacterAnim.cs (version 2)</a>
+  * <a href="https://github.com/ajgquional/algo-unity-scripting/blob/main/M4L3/SpeedTriggerWizard.cs">SpeedTriggerWizard.cs</a>
+  * <a href="https://github.com/ajgquional/algo-unity-scripting/blob/main/M4L3/ThirdPersonMovement.cs">ThirdPersonMovement.cs</a>
+  * <a href="https://github.com/ajgquional/algo-unity-scripting/blob/main/M4L3/TrampolineWizard.cs">TrampolineWizard.cs</a>
+  * <a href="https://github.com/ajgquional/algo-unity-scripting/blob/main/M4L3/WizardMotion.cs">WizardMotion.cs</a>
+
+Aside from the scripts, each folder also contains individual README files which contains a short description about the script, as well as relevant links, tutorials, and files to aid in the completion of a certain activity. Mainly, the README files contain guides on how to use the scripts and complete an activity.
 
 Lastly, this repository contains links for general resources relevant to Unity game development.
 
@@ -82,8 +93,13 @@ Note that this repository would be continuously updated to include relevant info
   * Player.cs
   * Timer.cs
   * PlayerUI.cs
- * The program contained in the scripts is highly annotated. Although this may not be the best practice, it serves as a detailed explanation and guide for the student. Refer to the comments in the program to see what a particular line of code is meant to do.
+  * Button.cs
+  * CharacterAnim.cs
+ * The program contained in the scripts is highly annotated. Although this may not be the best practice from a software development perspective (that is, the high amount of annotations), the annotations serve as a detailed explanation and guide for the student. Refer to the comments in the program to see what a particular line of code is meant to do.
 
 ## Relevant general resources
 * Unity User Manual 2021.3 (LTS): https://docs.unity3d.com/2021.3/Documentation/Manual/UnityManual.html
 * Best practices for organizing Unity projects: https://unity.com/how-to/organizing-your-project
+* Guide to installing Unity and Visual Studio: https://docs.google.com/presentation/d/1L1hf9a-YMDx0rZ7VZBhkanCopPNAAJmHwct25tpCXpA/edit?usp=sharing
+* Guide to opening a finished project in Unity: https://docs.google.com/presentation/d/1gXI5NOyFDUqjzFj8BQFozMKhZod47HU-8PnADnL-1ok/edit?usp=sharing
+* Guide to importing free Unity assets: https://docs.google.com/presentation/d/14vaSBWyN4ChXCyHN2nHMvsAde0XoAlurkDgopN4nDA0/edit?usp=sharing
