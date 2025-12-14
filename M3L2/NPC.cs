@@ -2,11 +2,11 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program makes the "NPC" move constantly
- *      (every frame) in a straight line.
+ * Description: 
+ *      Makes the "NPC" move constantly (every frame) 
+ *      in a straight line.
  * 
- * How to use the script:
+ * How to use:
  *      - Create a plane where the NPC would be placed
  *      - Create a cube NPC (you may add color and material)
  *      - Attach the script to the NPC
