@@ -2,11 +2,11 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program demonstrates how primitives can be
+ * Description: 
+ *      Demonstrates how primitives can be
  *      created using a script.
  * 
- * How to use the script:
+ * How to use:
  *      - Attach the script to the Main Camera
  * **************************************************/
 
