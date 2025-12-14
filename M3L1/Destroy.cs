@@ -2,12 +2,13 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program demonstrates how a game object 
- *      can be destroyed using a script.
+ * Description: 
+ *      Demonstrates how a game object can be destroyed 
+ *      using a script.
  * 
- * How to use the script:
- *      - Create any primitive (shape) and place it anywhere on the scene
+ * How to use:
+ *      - Create any primitive (shape) and place it 
+ *          anywhere on the scene
  *      - Attach the script to that primitive
  * **************************************************/
 
