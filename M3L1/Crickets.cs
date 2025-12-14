@@ -2,11 +2,10 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program simply prints the text "crickets"
- *      every frame.
+ * Description: 
+ *      Simply prints the text "crickets" every frame.
  * 
- * How to use the script:
+ * How to use:
  *      - Attach the script to the Main Camera
  * **************************************************/
 
