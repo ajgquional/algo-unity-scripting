@@ -2,12 +2,11 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program simply prints the text "Hello, World!"
- *      to the console as an introduction on how to use C# scripts
- *      in Unity.
+ * Description: 
+ *      Simply prints the text "Hello, World!"
+ *      to the console.
  * 
- * How to use the script:
+ * How to use:
  *      - Attach the script to the Main Camera
  * **************************************************/
 
