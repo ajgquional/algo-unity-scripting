@@ -2,18 +2,23 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program implements teleportation between
- *      two points when a Teleporter is touched.
+ * Description: 
+ *      Implements teleportation between two points 
+ *      when a Teleport object is touched.
  * 
- * How to use the script:
- *      - Setup two teleport points inside the Teleports
- *      - Attach the script to the Teleport objects
+ * How to use:
+ *      - Add (any) Collider to the Teleport object
+ *          (recommended to edit the Prefab)
+ *      - Attach the script to the Teleport object
+ *          (recommended to edit the Prefab)
+ *      - In the hierarchy window, find the Teleport
+ *          objects and create an empty teleport point 
+ *          away from the Teleport objects
  *      - Specify that the teleportPoint of the 1st
  *          Teleport object is the teleportPoint of
  *          the 2nd Teleport object
- *      - Specify that the teleportPoint of the 2nd
- *          Teleport object is the teleportPoint of 
+ *      - Likewise, specify that the teleportPoint of 
+ *          the 2nd Teleport object is the teleportPoint of 
  *          the 1st Teleport object 
  * **************************************************/
 
