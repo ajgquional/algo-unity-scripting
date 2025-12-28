@@ -2,13 +2,15 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program implements reset on a specified 
- *      scene when an object is touched by the Player.
+ * Description: 
+ *      Implements a reset of a specified scene when 
+ *      a Trap object is touched by the Player.
  * 
- * How to use the script:
- *      - Add a Box Collider to the object
- *      - Attach the script to the object
+ * How to use:
+ *      - Add a Box Collider to the Trap object
+ *          (recommended to edit the Prefab)
+ *      - Attach the script to the Trap object
+ *          (recommended to edit the Prefab)
  *      - Specify the name of the scene to be reloaded
  * **************************************************/
 
