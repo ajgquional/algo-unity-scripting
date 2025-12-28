@@ -2,11 +2,11 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program implements increased jump strength
- *      to the Player when a Trampoline object is touched.
+ * Description: 
+ *      Implements increased jump strength to the Player 
+ *      when a Trampoline object is touched.
  * 
- * How to use the script:
+ * How to use:
  *      - Add a Box Collider to the Trampoline
  *      - Attach the script to the Trampoline
  * **************************************************/
