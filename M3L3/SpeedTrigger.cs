@@ -2,11 +2,11 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program implements increased run speed to the
- *      Player when an Accelerator object is touched.
+ * Description: 
+ *      Implements increased run speed to the Player 
+ *      when an Accelerator object is touched.
  * 
- * How to use the script:
+ * How to use:
  *      - Add a Box Collider to the Accelerator
  *      - Attach the script to the Accelerator
  * **************************************************/
