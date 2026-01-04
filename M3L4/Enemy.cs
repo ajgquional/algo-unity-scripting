@@ -2,14 +2,14 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program implements a combat mechanic:
- *      Enemy continuously moves toward a target
- *      and the target receives a damage when the 
- *      Enemy is touched
+ * Description: 
+ *      Implements combat mechanics: Enemy continuously 
+ *      moves towards a target and the target receives a 
+ *      damage when the Enemy is touched
  * 
- * How to use the script:
- *      - Setup the enemy first and add a Collider
+ * How to use:
+ *      - Import the Enemy 
+ *      - Add a Collider to the Enemy
  *      - Attach the script to all the Enemy objects
  * **************************************************/
 
