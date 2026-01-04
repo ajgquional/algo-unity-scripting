@@ -2,12 +2,14 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program implements the coin collection mechanic.
+ * Description: 
+ *      Implements the coin collection mechanic.
  * 
- * How to use the script:
- *      - Make sure that the coin object has a Collider component
- *      - Attach the script to all the coin objects
+ * How to use:
+ *      - Make sure that the coin object has a Collider 
+ *          component
+ *      - Attach the script to all the coin objects 
+ *          (recommended to edit the Prefab)
  * **************************************************/
 
 // libraries
