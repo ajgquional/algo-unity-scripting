@@ -2,13 +2,19 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program specifies Player properties (health, 
- *      number of collected coins, fireball to be used, and
- *      origin point of the fireball) as well as behaviors 
- *      (take damage, collect coins, create fireball).
+ * Description: 
+ *      Specifies Player properties and behaviors:
+ *          - properties: 
+ *              -- health 
+ *              -- number of collected coins
+ *              -- fireball to be used
+ *              -- origin point of the fireball as well as 
+ *          - behaviors: 
+ *              -- take damage 
+ *              -- collect coins 
+ *              -- create fireball
  * 
- * How to use the script:
+ * How to use:
  *      - Attach the script to the Player
  *      - Note to implement fireball attack: setup the attack 
  *          point (point where the fireballs would be generated)
