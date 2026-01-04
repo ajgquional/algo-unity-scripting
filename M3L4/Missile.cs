@@ -2,14 +2,13 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program implements attack of the Player
- *      to the Enemy. Specifically, a fireball would be
+ * Description: 
+ *      Implements Player attack: a fireball would be
  *      created from the wizard staff and when the 
  *      fireball struck the Enemy, the Enemy would be
  *      destroyed.
  * 
- * How to use the script:
+ * How to use:
  *      - Create a fireball object with an effect
  *      - Attach the script to the fireball object
  *      - Make the fireball object a prefab
