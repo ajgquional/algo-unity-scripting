@@ -2,10 +2,10 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program implements a timer for the game.
+ * Description: 
+ *      Implements a timer for the game.
  * 
- * How to use the script:
+ * How to use:
  *      - Attach the script to the Player
  * **************************************************/
 
