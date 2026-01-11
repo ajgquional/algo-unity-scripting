@@ -2,14 +2,13 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program contains improved mechanics for 
- *      the Player: a sound effect would be generated
- *      when the Player attains damage, health goes 
- *      down until zero only, and the level restarts
- *      when the Player's health is zero.
+ * Description: 
+ *      Implements the following mechanics for the Player:
+ *          - sound effect is played after receiving damage
+ *          - health goes down until zero only
+ *          - level restarts when health is zero
  * 
- * How to use the script:
+ * How to use:
  *      - Import the necessary sound asset
  *      - Setup the audio source for the Player
  *      - Replace the previous Player script with this one
