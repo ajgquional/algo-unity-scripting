@@ -2,11 +2,16 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program improves the previous Enemy program
- *      to catch the NullReferenceException error
+ * Description: 
+ *      - Implements combat mechanics: 
+ *          -- Enemy continuously moves towards a target
+ *          -- Target receives a damage when Enemy is touched
+ *      - Fixes NullReferenceException error
  * 
- * How to use the script:
+ * How to use:
+ *      - Import the Enemy 
+ *      - Add a Collider to the Enemy
+ *      - Attach the script to all the Enemy objects
  *      - Setup a "Player" tag and assign it to the Player
  *      - Replace the previous Enemy script with this one
  * **************************************************/
