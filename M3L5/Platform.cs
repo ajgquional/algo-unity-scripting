@@ -2,17 +2,19 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program implements a lift mechanism.
- *      A Platform would take the Player up or down
- *      until a specific point. The Platform would 
- *      only be activated when the Player steps upon it.
+ * Description: 
+ *      Implements the mechanics for the lift:
+ *          - Takes the Player up or down until a 
+ *              specified point 
+ *          - Only be activated when the Player steps 
+ *              on it
  * 
- * How to use the script:
+ * How to use:
  *      - Setup the lift: there should be a Platform object
  *          and two stop points
  *      - Setup a "PlatformStop" tag and assign it to the
- *          two stop points
+ *          two stop points (consequently, assign a "Player"
+ *          tag to the Player object)
  *      - Attach the script to the Platform object
  * **************************************************/
 
