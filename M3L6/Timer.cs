@@ -2,15 +2,14 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program improves the previous timer program.
- *      Specifically, code is added to round off the
- *      value of seconds, and libraries are added to 
- *      work with text in the UI. Additionally, the default
- *      time for level completion has been increased to 
- *      2 minutes.
+ * Description: 
+ *      Improves the timer by rounding off the value 
+ *      of seconds. Libraries are also added to 
+ *      work with text in the UI. Additionally, the 
+ *      default time for level completion has been 
+ *      increased to 2 minutes.
  * 
- * How to use the script:
+ * How to use:
  *      - Replace the previous Timer script with this one
   *     - Link the Timer Text object
  * **************************************************/
@@ -65,6 +64,6 @@ public class Timer : MonoBehaviour
 
         // rounding the value of seconds to integers before displaying them on the screen
         int roundSeconds = Mathf.RoundToInt(seconds);
-        timerText.text = minutes + ":" + roundSeconds;
+        timerText.text = minutes + ":" + roundSeconds.ToString("00"); // formatting seconds to always show two digits
     }
 }
