@@ -2,12 +2,12 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program implements the operation of the 
- *      designed UI. Specifically, this updates the 
- *      health, time, and number of coins.
+ * Description: 
+ *      Implements the operation of the designed UI,
+ *      particularly updating the health, time, and 
+ *      number of coins.
  * 
- * How to use the script:
+ * How to use:
  *      - Attach the script to the Player
  *      - Link the Coins Counter Text and Health Slider objects
  * **************************************************/
