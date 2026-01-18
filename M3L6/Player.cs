@@ -2,13 +2,11 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program contains improved code for the 
- *      Player's health and coins (specifically, the 
- *      access modifier for both has been changed to
- *      public since the UI would access their data).
+ * Description: 
+ *      Implements basic Player mechanics, as well as 
+ *      improved health and coins management.
  * 
- * How to use the script:
+ * How to use:
  *      - Replace the previous Player script with this one
  * **************************************************/
 
@@ -31,25 +29,25 @@ public class Player : MonoBehaviour
     public int coins;
 
     // fireball attack
-    public GameObject fireballPrefab;
-    public Transform attackPoint;
+    public GameObject fireballPrefab;   // storing the prefab of the fireball
+    public Transform attackPoint;       // location of the departure point of the fireball
 
-    // sound effect
-    public AudioSource audioSource;
-    public AudioClip damageSound;
+    // to implement sound effect when damage is received
+    public AudioSource audioSource;     // object responsible for audio playback
+    public AudioClip damageSound;       // sound file containing the sound of damage
 
     // method to reduce the player's health by the amount of damage done
     public void TakeDamage(int damage)
     {
         // player's health is reduced according to the amount of damage
-        health -= damage;                           
+        health -= damage;
 
         // checks if the player has health left
         // if there's still health, play a damage sound
         if (health > 0)
         {
             audioSource.PlayOneShot(damageSound);   // plays the sound of taking damage
-            print("Player's health: " + health);    // prints the player's health in the console
+            print("Player's health: " + health);    // prints the player's health in the console (for debugging purposes)
         }
 
         // otherwise, restart the level
@@ -64,11 +62,11 @@ public class Player : MonoBehaviour
     // method to implement collection of coins
     public void CollectCoins()
     {
-        coins++;                                // increments the number of coins of the player
+        coins++;                                // increments the number of coins of the Player
         print("Collected coins: " + coins);     // prints the number of coins in the console
     }
 
-    // method to implement firing of fireballs
+    // to implement firing of fireballs, continuously check if the left mouse button is pressed
     void Update()
     {
         // if left mouse button is pressed, create the fireballs
