@@ -2,13 +2,14 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program contains improved code for the UI
- *      incorporating modular development practices
- *      (recall that the number of coins and health has
- *      already been separated from the Player).
+ * Description: 
+ *      Connects the UI to the health and coin modules,
+ *      incorporating best practices in modular 
+ *      development (recall that coin collection and 
+ *      health mechanics have already been removed from 
+ *      the Player).
  * 
- * How to use the script:
+ * How to use:
  *      - Replace the previous PlayerUI script with this one
  * **************************************************/
 
@@ -24,6 +25,7 @@ public class PlayerUI : MonoBehaviour
     // links to other game objects, assignable via the Inspector window
     public CoinsCounter coinsCount;             // link to the number of coins declared in CoinsCounter class
     public Health health;                       // link to the health declared in the Health class
+    
     public TextMeshProUGUI coinsCounterText;    // link to the TextMeshProGUI component of the coin counter
     public Slider healthSlider;                 // link to the Slider component of the health scale
 
