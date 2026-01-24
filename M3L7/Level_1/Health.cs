@@ -2,14 +2,14 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program solely contains the health mechanic
- *      (which is removed from the Player, following
- *      practices in modular development).
+ * Description: 
+ *      Contains the health mechanic (removed from the 
+ *      Player, following best practices in modular 
+ *      development).
  * 
- * How to use the script:
- *      - Attach the script to the Player (after doing so,
- *          make sure that the Player script is removed)
+ * How to use:
+ *      - Attach the script to the Player 
+ *      - Remove the Player script
  * **************************************************/
 
 // libraries
@@ -32,7 +32,7 @@ public class Health : MonoBehaviour
     public void TakeDamage(int damage)
     {
         // Player's health is reduced according to the amount of damage
-        health -= damage;                           
+        health -= damage;
 
         // checks if the Player has health left
         // if there's still health, play a damage sound
