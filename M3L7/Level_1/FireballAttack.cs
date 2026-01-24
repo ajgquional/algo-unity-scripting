@@ -2,14 +2,14 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program solely contains the fireball attack
- *      mechanic (which is removed from the Player, following
- *      practices in modular development).
+ * Description: 
+ *      Contains the fireball attack mechanic (removed 
+ *      from the Player, following best practices in 
+ *      modular development).
  * 
- * How to use the script:
- *      - Attach the script to the Player (after doing so,
- *          make sure that the Player script is removed)
+ * How to use:
+ *      - Attach the script to the Player 
+ *      - Remove the Player script
  * **************************************************/
 
 // libraries
