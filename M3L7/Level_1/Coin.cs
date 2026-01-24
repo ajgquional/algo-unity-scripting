@@ -2,14 +2,15 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program implements an improved coin collection 
- *      mechanic incorporating modular development
- *      practices (i.e. by using a CoinsCounter class;
- *      that is, the coins have already been removed from 
+ * Description: 
+ *      Implements an improved coin collection mechanic 
+ *      by connecting the CoinsCounter class, 
+ *      incorporating best practices in modular 
+ *      development (recall that the coin collection 
+ *      mechanic has already been removed from 
  *      the Player).
  * 
- * How to use the script:
+ * How to use:
  *      - Replace the previous Coin script with this one
  * **************************************************/
 
