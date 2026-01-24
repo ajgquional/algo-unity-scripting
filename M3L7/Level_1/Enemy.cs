@@ -2,13 +2,14 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program improves the previous Enemy program
- *      implementing modular development practices (now,
- *      a link has been setup to the Health script, not
- *      the Player script).
+ * Description: 
+ *      Implements an improved Enemy mechanic by connecting 
+ *      the Health class of the Player, incorporating best 
+ *      practices in modular development (recall that the 
+ *      health mechanic has already been removed from 
+ *      the Player).
  * 
- * How to use the script:
+ * How to use:
  *      - Replace the previous Enemy script with this one
  * **************************************************/
 
