@@ -2,14 +2,18 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program implements the operation of the 
- *      bonfire. Aside from reducing the fire of the 
- *      bonfire, the Player needs to go near the 
- *      bonfire for the temperature to increase.
+ * Description: 
+ *      Implements the operation of the bonfire. Aside 
+ *      from reducing the fire of the bonfire, the 
+ *      Player needs to go near the bonfire for his/her 
+ *      temperature to increase.
  * 
- * How to use the script:
- *      - Attach the script to all bonfires in Level 2
+ * How to use:
+ *      - Add a collider to all bonfires in Level 2 
+ *          and make the collider a trigger 
+ *          (recommended to edit the prefab)
+ *      - Attach the script to all bonfires
+ *          (recommended to edit the prefab)
  * **************************************************/
 
 // libraries
@@ -51,6 +55,6 @@ public class Bonfire : MonoBehaviour
                 // if current temp is below normal, warm up the Player
                 temperature.temperatureCurrent += heatPower * Time.deltaTime;
             }
-        }    
+        }
     }
 }
