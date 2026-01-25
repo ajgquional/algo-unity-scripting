@@ -2,14 +2,15 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program implements a temperature for the Player
- *      which will gradually decrease. Player's health would
+ * Description: 
+ *      Implements a temperature for the Player which 
+ *      will gradually decrease. Player's health would
  *      decrease if the temperature goes below a certain
  *      temperature threshold.
  * 
- * How to use the script:
+ * How to use:
  *      - Attach the script to the Player in Level 2
+ *      - Link the Health instance of the Player
  * **************************************************/
 
 // libraries
