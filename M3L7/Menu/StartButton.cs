@@ -2,11 +2,11 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program implements a transition to Level 1
- *      when the start button in the Main Menu is clicked.
+ * Description: 
+ *      Implements a transition to Level 1 when the Start 
+ *      Button in the Main Menu is clicked.
  * 
- * How to use the script:
+ * How to use:
  *      - Attach the script to Start Button object
  *      - Specify in the OnClick() method in the Inspector
  *          that the StartGame() method would be executed
