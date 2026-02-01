@@ -2,11 +2,11 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program quits the game when the Exit Button
- *      in the Main Menu is clicked.
+ * Description: 
+ *      Quits the game when the Exit Button in the 
+ *      Main Menu is clicked.
  * 
- * How to use the script:
+ * How to use:
  *      - Attach the script to Exit Button object
  *      - Specify in the OnClick() method in the Inspector
  *          that the ExitGame() method would be executed
