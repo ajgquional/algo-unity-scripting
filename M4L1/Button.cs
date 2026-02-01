@@ -2,21 +2,23 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program implements the operation of the button
- *      and blue gates (i.e. when the button is pressed, the
- *      gate would open).
+ * Description: 
+ *      Animates the button and the blue gate: when the button 
+ *      is pressed, the gate would open.
  * 
- * How to use the script:
- *      - Add a button near the blue gates (Button prefab can
- *          be acquired from the Prefabs folder of Level_1)
+ * How to use:
+ *      - Add a button near the blue gate (Button prefab can
+ *          be acquired from the Prefabs folder of Level_1, or
+ *          get the Button instance at the back of one of the
+ *          buildings in the topmost level)
  *      - Create an Animation for both the Button and the Blue 
  *          Gates
  *      - Attach the script to the Cylinder.001 object inside
  *          Button
- *      - Click the Cylinder.001 object, look at the Button 
- *          component in the Inspector, then select the Cylinder.001
- *          in the Button field, and Blue Gates in the ToOpen field
+ *      - In the Button component of the Cylinder.001 object, 
+ *          set the Button field to be the animator component 
+ *          of Cylinder.001 and the ToOpen field to the animator 
+ *          component of Blue Gates
  * **************************************************/
 
 // libraries
