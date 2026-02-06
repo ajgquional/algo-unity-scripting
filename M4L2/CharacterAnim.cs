@@ -2,14 +2,13 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program controls the wizard character's 
- *      animation.
+ * Description: 
+ *      Controls the wizard character's animation.
  * 
- * How to use the script:
+ * How to use:
  *      - Add the Wizard Prefab
  *      - Setup the virtual camera and camera target 
- *          inside Wizard Prefab
+ *          inside the Wizard Prefab instance
  *      - Setup the animation states via the 
  *          Animator Window
  *      - Attach the script to the Wizard Prefab
