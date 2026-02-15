@@ -2,15 +2,15 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program is similar to the previous SpeedTrigger
- *      script which increases the run speed of the Player
- *      when an Accelerator object is touched, except that
- *      this time, the script gets the ThirdPersonMovement
+ * Description: 
+ *      Similar to the previous SpeedTrigger script which 
+ *      increases the run speed of the Player when an 
+ *      Accelerator object is touched, except that this 
+ *      time, the script gets the ThirdPersonMovement
  *      component of the Player rather than the 
  *      FirstPersonMovement component.
  * 
- * How to use the script:
+ * How to use:
  *      - Attach the script to the Accelerator object
  * **************************************************/
 
@@ -29,6 +29,7 @@ public class SpeedTriggerWizard : MonoBehaviour
     {
         // increasing the Wizard's running speed
         other.GetComponent<ThirdPersonMovement>().runSpeed *= speedFactor;
+        // notice: we get the ThirdPersonMovement rather than the FirstPersonMovement component
     }
 
     // method to be executed when the Wizard exits the accelerator
@@ -36,5 +37,6 @@ public class SpeedTriggerWizard : MonoBehaviour
     {
         // reducing the player's running speed
         other.GetComponent<ThirdPersonMovement>().runSpeed /= speedFactor;
+        // notice: we get the ThirdPersonMovement rather than the FirstPersonMovement component
     }
 }
