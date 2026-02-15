@@ -2,30 +2,29 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program is similar to the previous Button 
- *      script which implements the operation of the button
- *      and blue gates (i.e. when the button is pressed, the
- *      gate would open), except that this time, the script
- *      is updated to disable the Turtle enemy when the
- *      game starts, and would only be activated when the
- *      button is pressed.
+ * Description: 
+ *      Animates the button and the blue gate: when the button 
+ *      is pressed, the gate would open. Also, the Turtle enemy
+ *      gets activated only when the button is pressed (hence,
+ *      disabled by default at the beginning of the game).
  * 
- * How to use the script:
- *      - Add a button near the blue gates (Button prefab can
- *          be acquired from the Prefabs folder of Level_1)
+ * How to use:
+ *      - Add a button near the blue gate (Button prefab can
+ *          be acquired from the Prefabs folder of Level_1, or
+ *          get the Button instance at the back of one of the
+ *          buildings in the topmost level)
  *      - Create an Animation for both the Button and the Blue 
  *          Gates
  *      - Attach the script to the Cylinder.001 object inside
  *          Button
- *      - Click the Cylinder.001 object, look at the Button 
- *          component in the Inspector, then select the Cylinder.001
- *          in the Button field, and Blue Gates in the ToOpen field
+ *      - In the Button component of the Cylinder.001 object, 
+ *          set the Button field to be the animator component 
+ *          of Cylinder.001 and the ToOpen field to the animator 
+ *          component of Blue Gates
  *      - Put the Turtle enemy behind the Blue Gates (recommended) 
- *          so that the enemy would attack after opening the gates
- *          open
- 8      - Make sure that the Enemy object is specified in the Enemy
- *          field in the Inspector window
+ *          so that the enemy would attack only after the gates open
+ *      - Change the target of the Enemy to be the WizardPrefab 
+ *          instead
  * **************************************************/
 
 // libraries
@@ -38,7 +37,7 @@ public class Button : MonoBehaviour
     // refers to the Animator component of the game objects referenced to in the Inspector
     public Animator button;     // Animator component of the button game object
     public Animator toOpen;     // Animator component of the game object to be opened
-    
+
     public Enemy enemy;         // link to the Enemy object
 
     // Animator component of the button and gate is disabled at the beginning of the game
