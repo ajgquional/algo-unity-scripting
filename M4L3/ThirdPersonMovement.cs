@@ -2,11 +2,15 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program controls the 3D wizard character's 
- *      movement.
+ * Description: 
+ *      Controls the 3D wizard character's movement.
  * 
- * How to use the script:
+ * How to use:
+ *      - Attach a Rigidbody component to the Wizard Prefab
+ *          then set the following on the component:
+ *          - Mass to 5
+ *          - Interpolate to "Interpolate"
+ *          - Freeze Rotation Constraint on X, Y, and Z axes
  *      - Attach the script to the Wizard Prefab
  * **************************************************/
 
