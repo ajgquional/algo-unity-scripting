@@ -2,15 +2,14 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program controls the wizard character's 
- *      animation, updated with jumping and attacking
- *      animations.
+ * Description: 
+ *      Controls the wizard character's animation, 
+ *      updated with jumping and attacking animations.
  * 
- * How to use the script:
+ * How to use:
  *      - Add the Wizard Prefab
  *      - Setup the virtual camera and camera target 
- *          inside Wizard Prefab
+ *          inside the Wizard Prefab instance
  *      - Setup the animation states via the 
  *          Animator Window (update to include the
  *          jumping and attacking states)
