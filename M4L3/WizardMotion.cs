@@ -2,11 +2,10 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program controls the mixing of the wizard's
- *      animation.
+ * Description: 
+ *      Controls the mixing of the wizard's animation.
  * 
- * How to use the script:
+ * How to use:
  *      - Setup the animation states and blend trees
  *      - Attach the script to the Wizard Prefab
  *      - Specify the Animator component of the Wizard
