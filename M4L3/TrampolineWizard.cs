@@ -2,15 +2,19 @@
  * Author: 
  *      Adrian Josele G. Quional
  * 
- * Program description: 
- *      This program is similar to the Trampoline script
- *      before which increases the jump strength of the 
- *      Player when a Trampoline object is touched, except
- *      that this time, the script has been updated 
- *      considering the Wizard's new default jump strength.
+ * Description: 
+ *      Similar to the original Trampoline script which 
+ *      increases the jump strength of the  Player when 
+ *      a Trampoline object is touched, except that this 
+ *      time, the script has been updated considering the 
+ *      Wizard's new default jump strength.
  * 
- * How to use the script:
- *      - Attach the script to the Trampoline object
+ * How to use:
+ *      - Remove the old Trampoline script from the 
+ *          Trampoline object and attach this new script 
+ *          to that object; or
+ *      - Update the old Trampoline script by updating 
+ *          the value of the jumpStrength property to 50
  * **************************************************/
 
 // libraries
@@ -20,17 +24,17 @@ using UnityEngine;
 
 public class TrampolineWizard : MonoBehaviour
 {
-    // method to be executed when the Player enters the trampoline
+    // method to be executed when the Wizard enters the trampoline
     void OnTriggerEnter(Collider other)
     {
-        // changing the jumpStrength property of the Player's Jump component by 20
-        other.GetComponent<Jump>().jumpStrength += 20;
+        // changing the jumpStrength property of the Wizard's Jump component by 50
+        other.GetComponent<Jump>().jumpStrength += 50;
     }
 
-    // method to be executed when the Player exits the trampoline
+    // method to be executed when the Wizard exits the trampoline
     void OnTriggerExit(Collider other)
     {
-        // resetting the jumpStrength property of the Player's Jump component to 12
+        // resetting the jumpStrength property of the Wizard's Jump component to 12
         other.GetComponent<Jump>().jumpStrength = 12;
     }
 }
